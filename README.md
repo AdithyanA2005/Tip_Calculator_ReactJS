@@ -1,2 +1,6 @@
 # Tip_Calculator_JS
-This is a tip calculator website
+
+## What is this ?
+> This is a tip calculator website created by using ReactJs
+>
+> ![Screenshot](./.github/images/screenshot1.png)
