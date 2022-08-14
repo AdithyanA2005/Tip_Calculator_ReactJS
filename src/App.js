@@ -1,24 +1,46 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <div class="calculator">
+        <section class="first">
+          <div class="input-box">
+            <label>Bill</label>
+            <input class="bill-input" type="text" id="billAmount" />
+          </div>
+
+          <div class="input-box">
+            <label>Tip %</label>
+            <div>
+              <button>-</button>
+              <input type="text" id="tipPercent" />
+              <button>+</button>
+            </div>
+          </div>
+
+          <div class="input-box">
+            <label>Number of people</label>
+            <div>
+              <button>-</button>
+              <input type="text" id="tipPercent" />
+              <button>+</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="second">
+          <div>
+            <span>Tip</span>
+            <span>$10</span>
+          </div>
+          <div>
+            <span>Total</span>
+            <span><b>$110</b></span>
+          </div>
+        </section>
+      </div>
+    </main>
   );
 }
 
