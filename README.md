@@ -14,14 +14,14 @@
 > git clone https://github.com/AdithyanA2005/Tip_Calculator_ReactJS
 > ```
 
+> Move Into the downloaded folder
+> ```bash
+> cd Tip_Calculator_ReactJS
+> ```
+
 > Install the dependencies
 > ```bash
 > yarn install
-> ```
-
-> Move Into the downloaded folder
-> ```bash
-> cd <FOLDER_NAME>
 > ```
 
 > Start the developement server
