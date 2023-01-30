@@ -1,4 +1,4 @@
-# Tip_Calculator_JS
+# Tip Calculator ReactJS
 
 ## What is this ?
 > This is a tip calculator website created by using ReactJs
